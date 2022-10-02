@@ -1,0 +1,102 @@
+.footer_icons{
+    height: 50px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-left: 190px;
+    margin-top: 420px;
+}
+h6{
+    font-size: 18px;
+    color: white;
+    font-weight: lighter;
+    margin-bottom: 10px;
+    margin-left: 60px;
+}
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 130px;
+}
+.input_icon{
+    background-color: white;
+    padding-left: 3px;
+}
+
+.social-icon , .form_input , .footer_link{
+   height: 70px;
+   flex-basis: 33%;
+}
+.social-icon i{
+    font-size: 20px;
+    margin-right: 2px;
+    color: #ff722f;
+    margin-left: 20px;
+}
+input{
+    height: 30px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: 1px solid #ff722f;
+    
+}
+textarea{
+    height: 80px;
+    border: 1px solid #ff722f;
+}
+button{
+    background-color: #ff722f;
+    border: 2px solid #ff722f;
+    margin-top: 10px;
+    padding: 5px 5px;
+}
+button:hover{
+    color: #ff722f;
+    background-color: transparent;
+}
+
+.footer_list{
+   display: flex;
+   flex-direction: column;
+   color: #ff722f;
+   list-style: none;
+}
+
+.footer_list li{
+    list-style: none;
+    margin-bottom: 10px;
+    margin-left: 50px;
+}
+
+@media screen and (max-width:768px) {
+.footer_icons{
+   display: flex;
+   flex-direction: column;
+   height: 90px;
+}
+.container{
+    display: flex;
+   flex-direction: column;
+}
+.social-icon{
+    margin-right: 170px;  
+}
+.form_input{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 130px;
+    margin-bottom: 100px;
+}
+.footer_list{
+    margin-right: 150px;
+    margin-top: 30px;
+}
+button{
+    display: inline-block;
+    margin-right: 50px;
+}
+
+}

@@ -1,0 +1,36 @@
+header{
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 60px;
+}
+
+header h5{
+  font-size: 30px;
+  font-weight: lighter;
+  color: white;
+  font-weight: bold;
+}
+
+header span{
+    font-size: 30px;
+    font-weight: lighter;
+    color: #ff722f;
+    font-weight: bold;
+  }
+
+
+@media screen and (max-width:768px) {
+  header h5{
+   font-size: 35px;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+  }
+   header span{
+    font-size: 35px;
+    margin-left: 5px;
+   }
+
+}
